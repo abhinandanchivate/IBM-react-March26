@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3" pages="8">
   <diagram name="Page-1" id="vXBnBxdFDqP10xXpu1ce">
     <mxGraphModel dx="2276" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -213,6 +213,104 @@
         </mxCell>
         <mxCell id="HSvOFDmy3iLnU37L2-Zx-9" parent="1" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" value="event handler" vertex="1">
           <mxGeometry height="60" width="120" x="765.5" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="HSvOFDmy3iLnU37L2-Zx-13" edge="1" parent="1" source="HSvOFDmy3iLnU37L2-Zx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HSvOFDmy3iLnU37L2-Zx-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSvOFDmy3iLnU37L2-Zx-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="if we want to add on any functionality in react component functional comp.&amp;nbsp; then we will use the hook" vertex="1">
+          <mxGeometry height="90" width="530" x="120" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="HSvOFDmy3iLnU37L2-Zx-12" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" value="purposes of hook:&amp;nbsp;&lt;div&gt;1. state management&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. life cycle&lt;/div&gt;&lt;div&gt;3. handling complex calculations&lt;/div&gt;&lt;div&gt;handling complex renderings&lt;/div&gt;&lt;div&gt;handling redux content&lt;/div&gt;&lt;div&gt;etc.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="235" width="275" x="247.5" y="1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XsUc1hhUC_30UtmOpZiA" name="Page-8">
+    <mxGraphModel dx="1426" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-3" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" value="Form based Component" vertex="1">
+          <mxGeometry height="120" width="290" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-5" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-2" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="1. HTML Content" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-7" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-19" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-4" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="2. we need onChange event and onSubmit event&lt;div&gt;3. we need to destructure the state for mapping to the input fields.&lt;/div&gt;&lt;div&gt;we need to map our state fields with a form inputs.(we will do it the value attribute of input)&amp;nbsp; tag)&lt;/div&gt;&lt;div&gt;onChange event : to chagne the value&amp;nbsp;&lt;/div&gt;&lt;div&gt;onSubmit : we must call e.preventDefault()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="430" x="310" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-9" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-11" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-6" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="we need to hold the data for initially for rendering purpose later it will perform the rest call." vertex="1">
+          <mxGeometry height="130" width="225" x="392.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-13" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-8" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="Success" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-15" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-10" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="Failure" vertex="1">
+          <mxGeometry height="60" width="120" x="730" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-17" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-12" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="when we will perform the rest call , it will hit the details to the backend application." vertex="1">
+          <mxGeometry height="140" width="180" x="90" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-14" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="these failures will come because of wrong input mostly then we have to render the failure messages over the form." vertex="1">
+          <mxGeometry height="210" width="330" x="625" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-16" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="we will move to hte dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-21" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-18" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="what is event and event handler?" vertex="1">
+          <mxGeometry height="60" width="120" x="815" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-20" parent="1" style="whiteSpace=wrap;html=1;fontSize=19;rounded=1;" value="click on the button ==&amp;gt; click --&amp;gt; event after clicking we will submit the form or we will render the data ==&amp;gt; post action to the event ==&amp;gt; post action to the event is ur handler." vertex="1">
+          <mxGeometry height="180" width="325" x="1020" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" value="Assignment : same work which we have done it for Register ==&amp;gt; pls apply to Login" vertex="1">
+          <mxGeometry height="90" width="500" x="510" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-25" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" value="we need to add the proxy specs.==&amp;gt; why" vertex="1">
+          <mxGeometry height="130" width="520" x="290" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-27" edge="1" parent="1" source="MT0A22JzeMpvt0zNQTAt-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MT0A22JzeMpvt0zNQTAt-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-24" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="if we will not use the proxy then ur backend end point will be exposed to the client from the browser&#39;s network." vertex="1">
+          <mxGeometry height="215" width="360" x="370" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="MT0A22JzeMpvt0zNQTAt-26" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="we need to install a lib called axios(axios is responsible for performing the rest call ." vertex="1">
+          <mxGeometry height="117.5" width="410" x="345" y="2083" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
