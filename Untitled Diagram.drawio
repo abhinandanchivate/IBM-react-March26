@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3" pages="9">
   <diagram name="Page-1" id="vXBnBxdFDqP10xXpu1ce">
     <mxGraphModel dx="2276" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -311,6 +311,23 @@
         </mxCell>
         <mxCell id="MT0A22JzeMpvt0zNQTAt-26" parent="1" style="whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" value="we need to install a lib called axios(axios is responsible for performing the rest call ." vertex="1">
           <mxGeometry height="117.5" width="410" x="345" y="2083" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4amsRCCZOaYYMUf-LLbm" name="Page-9">
+    <mxGraphModel dx="946" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hoc__Uud6_kp1fTIy4FM-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" value="&lt;div&gt;apiVersion: apps/v1&lt;/div&gt;&lt;div&gt;kind: Deployment&lt;/div&gt;&lt;div&gt;metadata:&lt;/div&gt;&lt;div&gt;&amp;nbsp; name: react-app&lt;/div&gt;&lt;div&gt;spec:&lt;/div&gt;&lt;div&gt;&amp;nbsp; replicas: 2&lt;/div&gt;&lt;div&gt;&amp;nbsp; selector:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; matchLabels:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; app: react&lt;/div&gt;&lt;div&gt;&amp;nbsp; template:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; metadata:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; labels:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; app: react&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spec:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; containers:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - name: react&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; image: your-docker/react-app&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ports:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - containerPort: 80&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;apiVersion: v1&lt;/div&gt;&lt;div&gt;kind: Service&lt;/div&gt;&lt;div&gt;metadata:&lt;/div&gt;&lt;div&gt;&amp;nbsp; name: react-service&lt;/div&gt;&lt;div&gt;spec:&lt;/div&gt;&lt;div&gt;&amp;nbsp; type: ClusterIP&lt;/div&gt;&lt;div&gt;&amp;nbsp; selector:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; app: react&lt;/div&gt;&lt;div&gt;&amp;nbsp; ports:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - port: 80&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; targetPort: 80&lt;/div&gt;" vertex="1">
+          <mxGeometry height="740" width="610" x="370" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="hoc__Uud6_kp1fTIy4FM-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;[User Browser]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;[Ingress / LoadBalancer]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;[React Frontend (Nginx Pod)]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;[Backend API (Node / Spring / Django)]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ↓&lt;/div&gt;&lt;div&gt;[Database (MongoDB/Postgres)]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="470" x="240" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hoc__Uud6_kp1fTIy4FM-3" parent="1" style="text;whiteSpace=wrap;" value="apiVersion: apps/v1&#xa;kind: Deployment&#xa;metadata:&#xa;  name: backend&#xa;spec:&#xa;  replicas: 2&#xa;  selector:&#xa;    matchLabels:&#xa;      app: backend&#xa;  template:&#xa;    metadata:&#xa;      labels:&#xa;        app: backend&#xa;    spec:&#xa;      containers:&#xa;        - name: backend&#xa;          image: your-docker/backend&#xa;          ports:&#xa;            - containerPort: 5000&#xa;---&#xa;apiVersion: v1&#xa;kind: Service&#xa;metadata:&#xa;  name: backend-service&#xa;spec:&#xa;  type: ClusterIP&#xa;  selector:&#xa;    app: backend&#xa;  ports:&#xa;    - port: 5000&#xa;      targetPort: 5000" vertex="1">
+          <mxGeometry height="510" width="290" x="250" y="1250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
